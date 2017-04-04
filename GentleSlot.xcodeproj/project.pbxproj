@@ -7,10 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F2715BB01E92C18F008A1836 /* SlotMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2715BAF1E92C18F008A1836 /* SlotMachine.swift */; };
+		F2715BB21E92C2E1008A1836 /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2715BB11E92C2E1008A1836 /* GameModel.swift */; };
+		F2715BB41E92C3D1008A1836 /* CustomScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2715BB31E92C3D1008A1836 /* CustomScene.swift */; };
 		F2F9FE5C1E8EB13500B369AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F9FE5B1E8EB13500B369AF /* AppDelegate.swift */; };
-		F2F9FE5E1E8EB13500B369AF /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = F2F9FE5D1E8EB13500B369AF /* GameScene.sks */; };
-		F2F9FE601E8EB13500B369AF /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = F2F9FE5F1E8EB13500B369AF /* Actions.sks */; };
-		F2F9FE621E8EB13500B369AF /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F9FE611E8EB13500B369AF /* GameScene.swift */; };
+		F2F9FE5E1E8EB13500B369AF /* CustomScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = F2F9FE5D1E8EB13500B369AF /* CustomScene.sks */; };
 		F2F9FE641E8EB13500B369AF /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F9FE631E8EB13500B369AF /* GameViewController.swift */; };
 		F2F9FE671E8EB13500B369AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2F9FE651E8EB13500B369AF /* Main.storyboard */; };
 		F2F9FE691E8EB13500B369AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2F9FE681E8EB13500B369AF /* Assets.xcassets */; };
@@ -18,11 +19,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F2715BAF1E92C18F008A1836 /* SlotMachine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlotMachine.swift; sourceTree = "<group>"; };
+		F2715BB11E92C2E1008A1836 /* GameModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameModel.swift; sourceTree = "<group>"; };
+		F2715BB31E92C3D1008A1836 /* CustomScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomScene.swift; sourceTree = "<group>"; };
 		F2F9FE581E8EB13500B369AF /* GentleSlot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GentleSlot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2F9FE5B1E8EB13500B369AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F2F9FE5D1E8EB13500B369AF /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		F2F9FE5F1E8EB13500B369AF /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
-		F2F9FE611E8EB13500B369AF /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		F2F9FE5D1E8EB13500B369AF /* CustomScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = CustomScene.sks; sourceTree = "<group>"; };
 		F2F9FE631E8EB13500B369AF /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		F2F9FE661E8EB13500B369AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F2F9FE681E8EB13500B369AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -61,14 +63,15 @@
 			isa = PBXGroup;
 			children = (
 				F2F9FE5B1E8EB13500B369AF /* AppDelegate.swift */,
-				F2F9FE5D1E8EB13500B369AF /* GameScene.sks */,
-				F2F9FE5F1E8EB13500B369AF /* Actions.sks */,
-				F2F9FE611E8EB13500B369AF /* GameScene.swift */,
+				F2F9FE5D1E8EB13500B369AF /* CustomScene.sks */,
 				F2F9FE631E8EB13500B369AF /* GameViewController.swift */,
 				F2F9FE651E8EB13500B369AF /* Main.storyboard */,
 				F2F9FE681E8EB13500B369AF /* Assets.xcassets */,
 				F2F9FE6A1E8EB13500B369AF /* LaunchScreen.storyboard */,
 				F2F9FE6D1E8EB13500B369AF /* Info.plist */,
+				F2715BAF1E92C18F008A1836 /* SlotMachine.swift */,
+				F2715BB11E92C2E1008A1836 /* GameModel.swift */,
+				F2715BB31E92C3D1008A1836 /* CustomScene.swift */,
 			);
 			path = GentleSlot;
 			sourceTree = "<group>";
@@ -134,10 +137,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F2F9FE671E8EB13500B369AF /* Main.storyboard in Resources */,
-				F2F9FE5E1E8EB13500B369AF /* GameScene.sks in Resources */,
+				F2F9FE5E1E8EB13500B369AF /* CustomScene.sks in Resources */,
 				F2F9FE691E8EB13500B369AF /* Assets.xcassets in Resources */,
 				F2F9FE6C1E8EB13500B369AF /* LaunchScreen.storyboard in Resources */,
-				F2F9FE601E8EB13500B369AF /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,9 +150,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2F9FE621E8EB13500B369AF /* GameScene.swift in Sources */,
 				F2F9FE641E8EB13500B369AF /* GameViewController.swift in Sources */,
+				F2715BB01E92C18F008A1836 /* SlotMachine.swift in Sources */,
+				F2715BB41E92C3D1008A1836 /* CustomScene.swift in Sources */,
 				F2F9FE5C1E8EB13500B369AF /* AppDelegate.swift in Sources */,
+				F2715BB21E92C2E1008A1836 /* GameModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +286,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.serhiipianykh.GentleSlot;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -296,6 +301,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.serhiipianykh.GentleSlot;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -318,6 +324,7 @@
 				F2F9FE721E8EB13500B369AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
